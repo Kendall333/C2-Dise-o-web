@@ -1,0 +1,38 @@
+/* Comentario CSS */
+
+/* selectores: Identifican y delimitan los elementos HTML a los cuales se les aplica estilo
+selector{
+    propiedad: valor;
+    otra-propiedad: otro-valor;
+}
+*/
+
+
+/* selector por etiqueta */
+h1,h2{
+    background-color: rgb(211, 179, 240);
+}
+
+/* Selector por clase */ 
+.destacado{
+    color: #0bb01b;
+    font-size: 18px;
+}
+
+.linea-lateral{
+    border-left: 5px solid green;
+    border-radius: 2px;
+}
+
+
+/* Selecor universal */
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* selector por ID */
+#nombreMedico {
+    color:#ab0505;
+    font-size: 18px;
+    border: 2px solid rgb(30, 0, 255);
+}
